@@ -1,0 +1,11 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=JANIS 4.0
+Icon=/home/jkulesza/RC_Files/Media/Icons/OECD_NEA_Logo.jpg
+Path=/data/SRC/janis-4.0
+Exec=/data/SRC/janis-4.0/janis.sh
+StartupNotify=false
+StartupWMClass=JANIS
+OnlyShowIn=Unity;
+X-UnityGenerated=true

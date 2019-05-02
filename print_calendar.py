@@ -23,8 +23,8 @@ def print_calendar( month_delta = 0 ):
             if( str( then.day ) in r.split() ):
                 cals[ n + 2 ] = r.replace( fromstr, tostr )
             cal = '\n'.join( cals )
-        print( cal )
-        return( cal )
+    print( cal )
+    return( cal )
 
 import sys
 print_calendar( int( sys.argv[1] ) )
